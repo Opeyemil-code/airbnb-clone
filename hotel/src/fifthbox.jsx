@@ -1,6 +1,6 @@
 import React from "react";
-import Fifthimg from './img/image 25.png'
-import Fifimg from './img/image 24.png'
+import Fifthimg from '/public/img/image 29.png'
+import Fifimg from '/public/img/image 29.png'
 export default function Fifthbox(params) {
     return(
         <div className="flex flex-col space-y-3 mt-20">

@@ -1,6 +1,6 @@
 import React from "react";
-import secondimage from './img/image 26.png'
-import thirdimage from './img/image 29.png'
+import secondimage from '/public/img/image 23.png'
+import thirdimage from '/public/img/image 24.png'
 export default function Secondbox(params) {
    return(
       <div className="flex flex-col space-y-3">

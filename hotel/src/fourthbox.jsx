@@ -1,6 +1,6 @@
 import React from "react";
-import Fourthimg from './img/image 22.png'
-import Fimg from './img/image 23.png'
+import Fourthimg from '/public/img/image 26.png'
+import Fimg from '/public/img/image 28 (1).png'
 export default function Fourthbox(params) {
     return(
         <div className="flex flex-col space-y-3 ">

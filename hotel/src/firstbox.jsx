@@ -1,5 +1,5 @@
 import React from "react";
-import firstImage from './img/image 28 (1).png'
+import firstImage from '/public/img/image 25.png'
 export default function Firstbox(params) {
    return(
       <div className="flex mt-10">

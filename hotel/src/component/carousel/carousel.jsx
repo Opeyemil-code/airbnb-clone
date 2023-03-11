@@ -1,14 +1,50 @@
 import React from "react";
-import Fdiv from "./firstdiv";
-import Sdiv from "./seconddiv";
-import Tdiv from "./thirddiv";
-
+import Card from "./firstdiv";
+import Bike from '/public/mountain-bike 1.png'
+import star from '/public/Star 1.png'
+import data from './data.jsx'
 export default function Carousel(params) {
+    const Data = data.map(
+        (Data)=>{
+            return <Card
+            key={data.item}
+            Data={Data}
+            
+            />    
+        }
+    )
     return(
-        <div className="flex mx-auto bg-blac w-2/3">
-           <Fdiv/>
-           <Sdiv/>
-           <Tdiv/>
-        </div>
+        <section className="flex flex-row mx-auto w-3/2 bg-blac justify-center space-x-8 mt-10"> 
+            {Data}   
+        </section>
     )
 }
+
+
+
+
+
+
+
+/*
+<Card
+            img={Bike}
+            star={star}
+            rating='5.0 . USA'
+            quote='life lessons with covid'
+            price='From $134/ person'/>
+            <Card
+            img={Bike}
+            star={star}
+            rating='5.0 . USA'
+            quote='life lessons with covid'
+            price='From $134/ person'/>
+            <Card
+            img={Bike}
+            star={star}
+            rating='5.0 . USA'
+            quote='life lessons with covid'
+            price='From $134/ person'/>
+        </div>
+
+        */

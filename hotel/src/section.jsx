@@ -1,7 +1,7 @@
 import React from "react";
 import Firstbox from "./firstbox";
 import Secondbox from "./secondbox";
-import Thirdbox from "./thirdbox";
+import Thirdbox from './thirdbox.jsx'
 import Fourthbox from "./fourthbox";
 import Fifthbox from "./fifthbox";
 

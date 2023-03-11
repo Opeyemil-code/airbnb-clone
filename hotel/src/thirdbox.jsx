@@ -1,6 +1,6 @@
 import React from "react";
-import thirdimg from './img/image 27.png'
-import thimg from './img/image 22.png'
+import thirdimg from '/public/img/image 27.png'
+import thimg from '/public/img/image 22.png'
 export default function Thirdbox(params) {
     return(
         <div className="flex flex-col space-y-3 mt-20">
