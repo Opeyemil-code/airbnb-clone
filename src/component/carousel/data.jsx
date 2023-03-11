@@ -6,8 +6,8 @@ import wedding from '/public/wedding-photography 1.png'
 export default [
     {
        id: 1,
-       fimg: '/public/mountain-bike 1.png', 
-       star:'/public/Star 1.png',
+       img: '/public/mountain-bike 1.png', 
+       secondimg:'/public/Star 1.png',
        ratings: '5.0 (6) . USA',
        quote: 'life lessons with Katie Zaferes',
        price: 'From $134/ person',
@@ -16,8 +16,8 @@ export default [
     },
     {
         id: 2,
-        fimg: '/public/image 12.png', 
-        star: '/public/Star 1.png',
+        img: '/public/image 12.png', 
+        secondimg: '/public/Star 1.png',
         ratings: '5.0 (30). USA',
         quote: 'Learning wedding photography',
         price: 'From $125/ person',
@@ -26,8 +26,8 @@ export default [
      },
      {
         id:3,
-        fimg: '/public/wedding-photography 1.png' , 
-        star: '/public/Star 1.png',
+        img: '/public/wedding-photography 1.png' , 
+        secondimg: '/public/Star 1.png',
         ratings: '5.0 (30). USA',
         quote: 'Group Mountain bikini',
         price: 'From $50/ person',
