@@ -8,7 +8,13 @@ export default function Carousel(params) {
         (Data)=>{
             return <Card
             key={data.item}
-            Data={Data}
+            fimg={Data.fimg}
+            star={Data.star}
+            ratings={Data.ratings}
+            quote={Data.quote}
+            price={Data.price}
+            openSpot={Data.openSpots}
+            notification={Data.notification}
             
             />    
         }
