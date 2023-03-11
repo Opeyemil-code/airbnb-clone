@@ -8,19 +8,12 @@ export default function Carousel(params) {
         (Data)=>{
             return <Card
             key={data.item}
-            fimg={Data.fimg}
-            star={Data.star}
-            ratings={Data.ratings}
-            quote={Data.quote}
-            price={Data.price}
-            openSpot={Data.openSpots}
-            notification={Data.notification}
-            
+            Data={Data}
             />    
         }
     )
     return(
-        <section className="flex flex-row mx-auto w-3/2 bg-blac justify-center space-x-8 mt-10"> 
+        <section className="flex flex-col  lg:flex-row mx-auto w-3/2 justify-center lg:space-x-8 m-10 space-y-10 lg:space-y-0"> 
             {Data}   
         </section>
     )
@@ -28,6 +21,15 @@ export default function Carousel(params) {
 
 
 
+/*
+
+fimg={Data.fimg}
+            star={Data.star}
+            ratings={Data.ratings}
+            quote={Data.quote}
+            price={Data.price}
+            openSpot={Data.openSpots}
+            notification={Data.notification}
 
 
 
