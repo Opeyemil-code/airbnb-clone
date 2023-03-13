@@ -1,12 +1,8 @@
-import React from "react";
-import Bike from '/public/mountain-bike 1.png'
-import star from '/public/Star 1.png'
-import swim from '/public/image 12.png'
-import wedding from '/public/wedding-photography 1.png'
+
 export default [
     {
        id: 1,
-       img: '/public/mountain-bike 1.png', 
+       img: '/public/image12.png', 
        secondimg:'/public/Star 1.png',
        ratings: '5.0 (6) . USA',
        quote: 'life lessons with Katie Zaferes',
@@ -16,7 +12,7 @@ export default [
     },
     {
         id: 2,
-        img: '/public/image 12.png', 
+        img: '/public/wedding-photography1.png', 
         secondimg: '/public/Star 1.png',
         ratings: '5.0 (30). USA',
         quote: 'Learning wedding photography',
@@ -26,7 +22,7 @@ export default [
      },
      {
         id:3,
-        img: '/public/wedding-photography 1.png' , 
+        img: '/public/mountain-bike1.png' , 
         secondimg: '/public/Star 1.png',
         ratings: '5.0 (30). USA',
         quote: 'Group Mountain bikini',
