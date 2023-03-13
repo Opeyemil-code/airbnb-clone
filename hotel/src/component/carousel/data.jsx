@@ -1,8 +1,4 @@
-import React from "react";
-import Bike from '/public/mountain-bike 1.png'
-import star from '/public/Star 1.png'
-import swim from '/public/image 12.png'
-import wedding from '/public/wedding-photography 1.png'
+
 export default [
     {
        id: 1,

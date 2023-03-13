@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Card(props) {
      let badgeText
-     if (props.openSpots === 0) {
+     if (props.openSpot === 0) {
         badgeText = 'Sold out'
-     } else if (props.openSpots > 0) {
+     } else if (props.openSpot > 0) {
         badgeText = 'Online' 
      }
-     console.log(props.badgeText)
+     
     return(
       <div className="flex flex-col  lg:mx-0 mx-auto">
             <img src={props.fimg} className="w-56 h-72 rounded-lg" />
