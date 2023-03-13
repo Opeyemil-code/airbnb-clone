@@ -17,7 +17,7 @@ export default function Carousel(params) {
         }
     )
     return(
-        <section className="flex flex-col  lg:flex-row mx-auto w-3/2 justify-center lg:space-x-8 m-10 space-y-10 lg:space-y-0"> 
+        <section className="flex flex-col  lg:flex-row mx-auto lg:w-3/2 justify-center lg:space-x-8 m-10 space-y-10 lg:space-y-0"> 
             {Data}   
         </section>
     )

@@ -9,9 +9,9 @@ export default function Card(props) {
      }
      
     return(
-      <div className="flex flex-col  lg:mx-0 mx-auto">
-            <img src={props.fimg} className="w-56 h-72 rounded-lg" />
-            <div className="flex flex-row space-x-2">
+      <div className="flex flex-col  lg:mx-0 mx-auto  w-52 ">
+            <img src={props.fimg} className="w-56 h-72 rounded-l" />
+            <div className="flex flex-row space-x- text-center">
                 <img src={props.star} className="w-5 h-5" />
                 <span className=''></span>
                 <span className=""> • </span>
