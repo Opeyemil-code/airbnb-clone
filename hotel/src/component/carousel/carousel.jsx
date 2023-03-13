@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./firstdiv";
-import Bike from '/public/mountain-bike 1.png'
-import star from '/public/Star 1.png'
+
 import data from './data.jsx'
 export default function Carousel(params) {
     const Data = data.map(
