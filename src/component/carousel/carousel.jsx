@@ -7,8 +7,13 @@ export default function Carousel(params) {
     const Data = data.map(
         (Data)=>{
             return <Card
-            key={data.item}
-            Data={Data}
+            fimg={Data.img}
+            star={Data.secondimg}
+            ratings={Data.ratings}
+            quote={Data.quote}
+            price={Data.price}
+            openSpot={Data.openSpots}
+            notification={Data.notification}
             />    
         }
     )
